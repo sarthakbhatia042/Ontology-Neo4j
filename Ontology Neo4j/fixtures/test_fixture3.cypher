@@ -1,0 +1,2 @@
+MATCH (z) WHERE elementId(z) = "4:c8e61e0b-0b97-4f3b-995d-158413e1f560:169"
+DETACH DELETE z;
