@@ -29,12 +29,13 @@ Go to browser.neo4j.io to see the graph executed after posting the fixture throu
 1. python3 pip install fastapi uvicorn neo4j python-dotenv python-multipart 
 2. python neo4j_graphdb.py
 3. python3 -m uvicorn main:app --reload
-after the above, 
-go to http://127.0.0.1:8000 to check api status
-if it is running, it will display : {api_status : 'running'}
+
+after the above, go to http://127.0.0.1:8000 to check api status. If it is running, it will display : {api_status : 'running'}.
+
 Next, go to  http://127.0.0.1:8000/docs# to work with recieve(GET/) and write(POST/) commands.
  Check /GET to check for checking read_api.py and trace_api.py.
  Check /POST to work with ingestion pipeline.
+
 We can upload any fixture document and get the expected results for modifications (CRUD operations) in the Graph.
 
 
