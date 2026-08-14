@@ -21,12 +21,14 @@ Neo4j Aura
       ↓
 Graph modified
 
+Create a .env file according to your Neo4j credentials
+
 Go to browser.neo4j.io to see the graph executed after posting the fixture through API manufacturinig locally in ur system 
 
 ### How to run
-python3 pip install fastapi uvicorn neo4j python-dotenv python-multipart 
-python neo4j_graphdb.py
-python3 -m uvicorn main:app --reload
+1. python3 pip install fastapi uvicorn neo4j python-dotenv python-multipart 
+2. python neo4j_graphdb.py
+3. python3 -m uvicorn main:app --reload
 after the above, 
 go to http://127.0.0.1:8000 to check api status
 if it is running, it will display : {api_status : 'running'}
