@@ -37,6 +37,12 @@ Next, go to  http://127.0.0.1:8000/docs# to work with recieve(GET/) and write(PO
  Check /POST to work with ingestion pipeline.
 We can upload any fixture document and get the expected results for modifications (CRUD operations) in the Graph.
 
+
+
+To work with fixture documents, start with add_zone.cypher
+
+
+
 ## Graph display query
 MATCH (z:Zone)
 RETURN z;
