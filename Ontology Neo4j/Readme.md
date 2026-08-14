@@ -21,7 +21,7 @@ Neo4j Aura
       ↓
 Graph modified
 
-# Go to browser.neo4j.io to see the graph executed after posting the fixture through API manufacturinig locally in ur system 
+Go to browser.neo4j.io to see the graph executed after posting the fixture through API manufacturinig locally in ur system 
 
 ### How to run
 python3 pip install fastapi uvicorn neo4j python-dotenv python-multipart 
@@ -38,26 +38,3 @@ We can upload any fixture document and get the expected results for modification
 ## Graph display query
 MATCH (z:Zone)
 RETURN z;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Useless
-MATCH (n)-[r]->(m) RETURN n, r, m;
